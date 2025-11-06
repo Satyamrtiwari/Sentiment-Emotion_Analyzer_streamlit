@@ -8,6 +8,7 @@ from nltk.tokenize import word_tokenize
 
 # Download NLTK data (only first run)
 nltk.download('punkt')
+nltk.download('punkt_tab') 
 nltk.download('stopwords')
 
 # Load saved model and vectorizer
@@ -69,3 +70,4 @@ if st.button("Analyze Sentiment"):
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit + ML + NLP")
 st.caption("Developed by Satyam Tiwari")
+
